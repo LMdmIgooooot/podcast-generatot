@@ -3,8 +3,6 @@ FROM ubuntu:latest
 # Install Python 3.10, pip, and required build tools
 RUN apt-get update && apt-get install -y \
     python3.10 \
-    python3.10-venv \
-    python3.10-dev \
     curl \
     git \
     build-essential
